@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const images = Array.from(
     { length: config.imageCount },
-    (_, i) => `assets/img${i + 1}.jpeg`
+    (_, i) => `/assets/img${i + 1}.jpeg`
   );
   const trail = [];
 
